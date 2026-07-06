@@ -512,16 +512,28 @@ h3 {
 
 @media (max-width: 640px) {
   .topbar {
-    min-height: 66px;
+    grid-template-columns: 1fr;
+    gap: 8px;
+    min-height: auto;
+    padding-block: 14px;
+    text-align: center;
+  }
+
+  .brand {
+    justify-self: center;
+    font-size: clamp(1.35rem, 7vw, 1.75rem);
+    line-height: 1.1;
   }
 
   .topbar-links {
-    gap: 14px;
-    font-size: 0.98rem;
+    justify-self: center;
+    gap: 22px;
+    font-size: 1.05rem;
   }
 
   .byline {
-    font-size: 0.72rem;
+    justify-self: center;
+    font-size: 0.78rem;
   }
 
   .hero {
