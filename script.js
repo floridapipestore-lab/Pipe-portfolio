@@ -30,7 +30,7 @@ const models = [
     name: "Long Pipe",
     wholesale: "$20",
     msrp: "$40",
-    description: "A 6.5-inch pipe with a long stem.",
+    description: "A 6.25-inch pipe with a long stem.",
     ...modelImages(1)
   },
   {
@@ -70,7 +70,7 @@ const models = [
     name: "Mini bulbous Pipe",
     wholesale: "$10",
     msrp: "$20",
-    description: "A 4-inch long mini pipe with a bulbous shape.",
+    description: "A 4.25-inch long mini pipe with a bulbous shape.",
     ...modelImages(6)
   },
   {
