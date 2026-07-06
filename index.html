@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> The Florida Pipe Store </title>
+    <meta
+      name="description"
+      content="A professional wholesale clay studio for handcrafted ceramic tobacco smoking pipes. Please email me for a full catalogue of my current inventory."
+    >
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header" aria-label="Studio introduction">
+      <nav class="topbar" aria-label="Primary navigation">
+        <!-- BEGINNER EDIT: Change the studio name here. -->
+        <a class="brand" href="#top" aria-label="The Florida Pipe Store home">The Florida Pipe Store</a>
+        <div class="topbar-links">
+          <a href="#models">Models</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <p class="byline">By Anthony Varas</p>
+      </nav>
+
+      <section id="top" class="hero">
+        <div class="hero-media">
+          <!-- BEGINNER EDIT: Replace this image with your best studio or product photo. -->
+          <img src="images/hero-studio.JPG" alt="Handmade ceramic pipes arranged in a warm ceramic studio setting">
+        </div>
+        <div class="hero-copy">
+          <p class="eyebrow">Wholesale Hand-crafted ceramic pipe collection</p>
+          <h1>Small-batch ceramics with a gallery finish.</h1>
+          <!-- BEGINNER EDIT: Update this short artist statement. -->
+          <p>
+            The Florida Pipe Store is a wholesale business that creates unique ceramic pipes for smoke shops and wholesale buyers.
+            All pieces are non-toxic and food safe. Made from stoneware clay and fired to full vitrification. If you would like to receive a full catalogue of my current inventory please send an email with your contact information and request.
+          </p>
+          <a class="button" href="#contact">Contact for wholesale</a>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <section id="models" class="section intro-section" aria-labelledby="model-nav-title">
+        <div class="section-heading">
+          <p class="eyebrow">Wholesale line sheet</p>
+          <h2 id="model-nav-title">Explore the current models</h2>
+        </div>
+        <div id="modelCards" class="model-card-grid" aria-label="Model navigation"></div>
+      </section>
+
+      <section class="section model-detail-list" aria-label="Detailed model sections">
+        <div id="modelSections"></div>
+      </section>
+
+      <section id="contact" class="section contact-section" aria-labelledby="contact-title">
+        <div class="contact-panel">
+          <div>
+            <p class="eyebrow">Wholesale inquiries welcome</p>
+            <h2 id="contact-title">Bring handmade ceramic work into your shop.</h2>
+            <p>
+              For a full catalogue, minimums, custom glaze runs, and current production timelines,
+              reach out directly with your shop name and location.
+            </p>
+          </div>
+          <address class="contact-links">
+            <!-- BEGINNER EDIT: Update contact information here. -->
+            <a href="mailto:floridapipestore@gmail.com">floridapipestore@gmail.com</a>
+            <a href="https://www.instagram.com/tonyarthouse/" target="_blank" rel="noreferrer">Instagram</a>
+            <a href="https://youtu.be/lzVVJGM945M?si=mjSUXxVvuDeBwHte" target="_blank" rel="noreferrer">YouTube</a>
+          </address>
+        </div>
+      </section>
+    </main>
+
+    <div id="lightbox" class="lightbox" aria-hidden="true">
+      <button class="lightbox-close" type="button" aria-label="Close image">&times;</button>
+      <button class="lightbox-nav lightbox-prev" type="button" aria-label="Previous image">Prev</button>
+      <img id="lightboxImage" src="" alt="">
+      <button class="lightbox-nav lightbox-next" type="button" aria-label="Next image">Next</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
